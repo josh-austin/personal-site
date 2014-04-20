@@ -29,7 +29,7 @@ require_once 'template/header.php';
           <li class="title">PHP</li>
           <li class="price">This Website</li>
           <li class="description">This is a small static SPA website written using PHP, jQuery, Zurb Foundation, and Font Awesome Icons</li>
-          <li class="cta-button"><a class="button" href="https://joshaustin.outsystemscloud.com/MarshmallowWebSite/Home.aspx">Project Site</a></li>
+          <li class="cta-button"><a class="button" href="https://github.com/josh-austin/personal_site">Project Site</a></li>
         </ul>
     </div>
 </div>
