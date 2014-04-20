@@ -22,7 +22,15 @@
                 function loadPage(url) {
                     $('.main-section')
                         .css({'opacity' : '0'})
-                        .load(url + '?ajax=yes')
+                        .load(url + '?ajax=yes',
+                             function(){
+                                 $('#myCarousel').slick({
+                                        autoplay: true,
+                                        arrows: false,
+                                        dots: true,
+                                        speed: 450
+                                    });
+                                })
                         .animate({'opacity' : '1'}, 'slow', 'swing');
                 }
                 
@@ -54,6 +62,7 @@
                     dots: true,
                     speed: 450
                 });
+                
             });            
         </script>
 </body>
