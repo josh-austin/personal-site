@@ -1,4 +1,4 @@
-personal_site
+Personal Site
 =============
 
-My personal SPA brochure site
+My personal SPA brochure site: http://josh-austin.com
