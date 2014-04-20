@@ -19,49 +19,48 @@
         <script>
             $(function(){ 
                 
+                function setupEvents() {
+                    $('#headerLink').click(function(){
+                        loadPage('index.php');
+                    });
+
+                    $('#homeLink').click(function(){
+                        loadPage('index.php');
+                    });
+
+                    $('#projectLink').click(function(){
+                        loadPage('projects.php');
+                    });
+
+                    $('#projectButton').click(function(){
+                        loadPage('projects.php');
+                    });
+
+                    $('#aboutLink').click(function(){
+                        loadPage('about.php');
+                    });
+
+                    $(document).foundation(); 
+
+                    $('#myCarousel').slick({
+                        autoplay: true,
+                        arrows: false,
+                        dots: true,
+                        speed: 450
+                    });
+                }
+                
                 function loadPage(url) {
                     $('.main-section')
                         .css({'opacity' : '0'})
                         .load(url + '?ajax=yes',
                              function(){
-                                 $('#myCarousel').slick({
-                                        autoplay: true,
-                                        arrows: false,
-                                        dots: true,
-                                        speed: 450
-                                    });
+                                 setupEvents();
                                 })
                         .animate({'opacity' : '1'}, 'slow', 'swing');
                 }
                 
-                $('#headerLink').click(function(){
-                    loadPage('index.php');
-                });
-                
-                $('#homeLink').click(function(){
-                    loadPage('index.php');
-                });
-                
-                $('#projectLink').click(function(){
-                    loadPage('projects.php');
-                });
-                
-                $('#projectButton').click(function(){
-                    loadPage('projects.php');
-                });
-                
-                $('#aboutLink').click(function(){
-                    loadPage('about.php');
-                });
-                
-                $(document).foundation(); 
-                
-                $('#myCarousel').slick({
-                    autoplay: true,
-                    arrows: false,
-                    dots: true,
-                    speed: 450
-                });
+                setupEvents();
                 
             });            
         </script>
