@@ -5,7 +5,7 @@
 <head>
     <link href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/foundation.min.css" rel="stylesheet" type="text/css" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="static/slick/slick.css" rel="stylesheet" />
+    <link href="assets/slick/slick.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
         Josh Austin<?php if(isset($title)) { echo ' ~ ' . $title; } ?>

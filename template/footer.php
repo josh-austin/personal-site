@@ -15,7 +15,7 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation/foundation.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation/foundation.topbar.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation/foundation.offcanvas.min.js"></script>
-        <script src="static/slick/slick.min.js"></script>
+        <script src="assets/slick/slick.min.js"></script>
         <script>
             $(function(){ 
                 
