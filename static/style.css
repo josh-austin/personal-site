@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+
+.panel {
+    color: white;
+    padding: 8px;
+    margin: 0px;
+    text-align: center;
+    background-image: url('banner_hd.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: None;
+    
+    width: 100%;
+    min-height: 512px;
+}
+
+body {
+    /* background-color: #2b2e3a; */
+    background-color: #1b1c1f;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+div, h1, h3, .panel h1, .panel h3, p, div p, .columns p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.panel img {
+    margin-top: 12px;
+    border-radius: 100%;
+}
+
+.panel h1 {
+    margin-top: 12px;
+}
+
+a .fa {
+    color: white;
+}
+
+.row {
+    margin-top: 24px;
+}
+
+.panel .row {
+    border-top: 1px white solid;
+    padding-top: 24px;
+}
