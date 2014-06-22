@@ -15,7 +15,6 @@
 }
 
 body {
-    /* background-color: #2b2e3a; */
     background-color: #1b1c1f;
     margin: 0px;
     font-family: 'Raleway', sans-serif;
@@ -33,6 +32,16 @@ div, h1, h3, .panel h1, .panel h3, p, div p, .columns p {
 
 .panel h1 {
     margin-top: 12px;
+}
+
+p a, p a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: #9df;
+    text-decoration: none;
 }
 
 a .fa {
