@@ -56,3 +56,7 @@ a .fa {
     border-top: 1px white solid;
     padding-top: 24px;
 }
+
+.upperright {
+    text-align: right;
+}
