@@ -4,7 +4,7 @@
 <h3 data-sr>Bio</h3>
 <p data-sr>
     Josh Austin is currently on a team of developers at <a href="http://www.bju.edu">Bob Jones University</a> using
-    the <a href="www.outsystems.com">Outsystems</a> Platform as a Service (PaaS) for internal applications.&nbsp;&nbsp;He also
+    the <a href="http://www.outsystems.com">Outsystems</a> Platform as a Service (PaaS) for internal applications.&nbsp;&nbsp;He also
     tackles maintenance tasks for legacy internal applications written in PHP.
 </p>
 <p data-sr>
