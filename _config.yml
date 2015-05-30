@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Josh Austin
+tagline:          'Yet Another Coder'
+description:      'Christian, web developer, student of Jewish studies, Star Wars nerd.'
+url:              http://josh-austin.com
+baseurl:          /
+
+timezone:         America/New_York
+
+author:
+  name:           'Joshua Austin'
+  url:            https://github.com/josh-austin
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/josh-austin/josh-austin.github.io
